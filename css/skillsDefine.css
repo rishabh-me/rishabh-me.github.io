@@ -1,0 +1,21 @@
+/*
+First Card Theory Heading 
+*/
+
+.stylingSkills{
+height: 0.5rem; 
+border-radius: 0.3rem;
+transition: width 1s ease-out;
+background: #eeeeee;
+
+
+}
+
+
+.boxShadowStyle:hover{ 
+    border-radius: 1rem;
+    box-shadow: 0 0rem 0.4rem #55ff06;
+  
+   } 
+
+

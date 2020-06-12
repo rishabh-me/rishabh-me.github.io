@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+   <!---------------------------------------------------->
+   <!--Here we i'm going to print the title bar in top -->
+   <!---------------------------------------------------->
+    <title>Akash Pandey</title>
+    <script>   
+        AOS.init(); 
+     </script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skillsDefine.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+   
+   
+<!-------------------------------------------------------------------------------------------------------->
+ 
+<!--------------------------------------------------------------------------------------------------------->    
+
+
+</head>
+
+<body style= "background-color: #121212;">
+ <div class="main-container">
+        <div id="navbar-area">
+
+   <!---------------------------------------------------->
+   <!--Navigation bar top i defined here               -->
+   <!---------------------------------------------------->
+           
+            <nav class="navbar  navbar-expand-lg navbar-dark bg-dark navbar-inverse"
+                style="background-color: #121212;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+                    style="background-color: #121212;">
+                    <span class="navbar-toggler-icon" style="background-color: #121212;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="background-color: #121212;">
+                    <div class="navbar-nav">
+                        <ul class="nav navbar-nav">
+                
+                        <!-- Adding Styles to Skills Section -->
+                        <!------------------------------------->
+                            <li class="nav-item  adjustPadding">
+                                <a id="skills" class="nav-link" onclick="skillRoute()">Skills</a>
+                            </li>
+                        <!------------------------------------->
+                        
+
+                        <!-- Adding Styles to Wrods about me Section -->
+                        <!-------------------------------------->
+                        <li class="nav-item  adjustPadding">
+                                <a id="recommendations" class="nav-link" onclick="aboutRoute()">Words About Me</a>
+                            </li>
+                        <!-------------------------------------->
+
+                        <!-- Adding Styles to Project Section -->
+                        <!-------------------------------------->
+                            <li class="nav-item  adjustPadding">
+                                <a id="project" class="nav-link" onclick="projectRoute()">Projects</a>
+                            </li>
+                        <!------------------------------------->
+         
+                     
+
+                        <!-- Adding Styles to Certifications Section -->
+                        <!-------------------------------------->
+                            <li class="nav-item  adjustPadding">
+                                <a id="certifications" class="nav-link" onclick="certificationRoute()">Certifications</a>
+                            </li>
+                        <!-------------------------------------->
+                         <!-- Adding Styles to resume Section -->
+                        <!-------------------------------------->
+                        <li class="nav-item  adjustPadding">
+                            <a id="resume" class="nav-link" onclick="resumeRoute()">Resume</a>
+                        </li>
+                        <!-------------------------------------->
+                        <!-- Adding Styles to Contact Section -->
+                        <!-------------------------------------->
+                            <li class="nav-item  adjustPadding">
+                                <a id="contact" class="nav-link" onclick="contactRoute()">Contact Me</a>
+                            </li>
+                        <!-------------------------------------->    
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+     
+        <!---------------------------------------------------->
+        <!--navigation Bar finished here                    -->
+        <!---------------------------------------------------->
+
+        <!------------Button for scroll up added here-->
+        <a onclick="topFunction()" id="myBtn" href="#"><i class="far fa-arrow-alt-circle-up" style="color: #ffffff;"></i> </a>
+        <!---------------------------------------------->
+    
+        <!---------------------------------------------------->
+        <!--particle js i added here                        -->
+        <!---------------------------------------------------->
+       
+        <div id="particles" style="height: 42rem;">
+            <div id="particles-js" class="particle-js-area" style="height: 42rem">
+                <div class="btext">
+                    <h1>
+        <!---------------------------------------------------->
+        <!--Text Added here which is printing on top        -->
+        <!---------------------------------------------------->
+        
+                        <p class="typewrite" data-period="2000"
+                            data-type='[ "Hi, I am Akash.", "I am Creative.", "I Love to Code.", "I Love to Develop.", "I develop data into something beautiful and easy to understand" ]'>
+                            <span class="wrap"></span>
+                        </p>
+        <!---------------------------------------------------->            
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!--particle js Ended here                          -->
+        <!---------------------------------------------------->
+
+        <!--Skills section here                          -->
+        <!---------------------------------------------------->
+        
+         <div>
+                <!-- The About Section's Heading giving by this tag-->
+                <div  data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="skillSet" >Skills</div>
+                <!---------------------------------------------------->
+
+
+                <!-----------------------First Row-------------------->
+                <div  style="margin: 1rem; margin-bottom: 0;">
+                    <div class="row" style="display: flex;justify-content: center;">
+                        <!-----------------First Card-->  
+                        <div data-aos="fade-right" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
+                        <div class="headingCard" 
+                        onmouseover="mouseOver('javaTheoryInitial','javaTheoryLater','60%','javaPracticalInitial','javaPracticalLater','50%')" 
+                        onmouseout="mouseOut('javaTheoryInitial','javaTheoryLater','javaPracticalInitial','javaPracticalLater')" >
+                            <!-------------------Heading Main----------------->
+                            <div class="skillHeading"> Java</div>
+                           
+                          
+                            <div class="subHeading">Theory </div>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                                
+                                <div class="stylingSkills" id="javaTheoryInitial" 
+                                 style="width: 60%;"></div>
+                                
+                                <div class = "stylingSkills" id="javaTheoryLater"
+                                style="width: 0rem;height: 0rem;"></div>
+                         
+                            </div>
+                          <div class="subHeading">Practical </div>
+                            <!------------------>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                                
+                                <div class="stylingSkills" id="javaPracticalInitial" 
+                                 style="width: 50%;"></div>
+                                
+                                <div class = "stylingSkills" id="javaPracticalLater"
+                                style="width: 0rem;height: 0rem;"></div>
+                         
+                            </div>
+
+
+                
+                     
+                         
+                        </div>  
+                         </div>
+                        <!--------------------------------->
+                        <!-----------------Secnd Card-->  
+                        <div data-aos="fade-up" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
+                        <div class="headingCard" 
+                        onmouseover="mouseOver('pythonTheoryInitial','pythonTheoryLater','40%','pythonPracticalInitial','pythonPracticalLater','60%')" 
+                        onmouseout="mouseOut('pythonTheoryInitial','pythonTheoryLater','pythonPracticalInitial','pythonPracticalLater')" >
+                            <!-------------------Heading Main----------------->
+                            <div class="skillHeading"> Python </div>
+                           
+                          
+                            <div class="subHeading">Theory </div>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                                
+                                <div class="stylingSkills" id="pythonTheoryInitial" 
+                                 style="width: 40%;"></div>
+                                
+                                <div class = "stylingSkills" id="pythonTheoryLater"
+                                style="width: 0rem;height: 0rem;"></div>
+                         
+                            </div>
+                          <div class="subHeading">Practical </div>
+                            <!------------------>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                                
+                                <div class="stylingSkills" id="pythonPracticalInitial" 
+                                 style="width: 60%;"></div>
+                                
+                                <div class = "stylingSkills" id="pythonPracticalLater"
+                                style="width: 0rem;height: 0rem;"></div>
+                         
+                            </div>
+
+
+                
+                     
+                         
+                        </div>  
+                        </div>
+                    
+                        <!--------------------------------->
+                        <!-----------------Third Card-->  
+                        <div data-aos="fade-left" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
+                        <div class="headingCard" 
+                        onmouseover="mouseOver('htmlTheoryInitial','htmlTheoryLater','25%','htmlPracticalInitial','htmlPracticalLater','30%')" 
+                        onmouseout="mouseOut('htmlTheoryInitial','htmlTheoryLater','htmlPracticalInitial','htmlPracticalLater')" >
+                            <!-------------------Heading Main----------------->
+                            <div class="skillHeading">Machine Learning</div>
+                           
+                          
+                            <div class="subHeading">Theory </div>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                                
+                                <div class="stylingSkills" id="htmlTheoryInitial" 
+                                 style="width: 25%;"></div>
+                                
+                                <div class = "stylingSkills" id="htmlTheoryLater"
+                                style="width: 0rem;height: 0rem;"></div>
+                         
+                            </div>
+                          <div class="subHeading">Practical </div>
+                            <!------------------>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                                
+                                <div class="stylingSkills" id="htmlPracticalInitial" 
+                                 style="width: 35%;"></div>
+                                
+                                <div class = "stylingSkills" id="htmlPracticalLater"
+                                style="width: 0rem;height: 0rem;"></div>
+                         
+                            </div>
+
+
+                
+                     
+                         
+                        </div>  
+                        </div>
+                     
+                        <!--------------------------------->
+                    </div>
+                </div>
+                    <!-----------------------Second Row-------------------->
+                    <div style="margin: 1rem; margin-top: 0rem;">
+                <div class="row" style="display: flex;justify-content: center;">
+                    <!-----------------First Card-->  
+                    <div data-aos="fade-right" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
+                    <div class="headingCard" 
+                    onmouseover="mouseOver('dataScienceTheoryInitial','dataScienceTheoryLater','40%','dataSciencePracticalInitial','dataSciencePracticalLater','60%')" 
+                    onmouseout="mouseOut('dataScienceTheoryInitial','dataScienceTheoryLater','dataSciencePracticalInitial','dataSciencePracticalLater')" >
+                        <!-------------------Heading Main----------------->
+                        <div class="skillHeading"> Data Manipulation</div>
+                       
+                      
+                        <div class="subHeading">Theory </div>
+                        <!------------------>
+                        <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                            
+                            <div class="stylingSkills" id="dataScienceTheoryInitial" 
+                             style="width: 40%;"></div>
+                            
+                            <div class = "stylingSkills" id="dataScienceTheoryLater"
+                            style="width: 0rem;height: 0rem;"></div>
+                     
+                        </div>
+                      <div class="subHeading">Practical </div>
+                        <!------------------>
+                        <!------------------>
+                        <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                            
+                            <div class="stylingSkills" id="dataSciencePracticalInitial" 
+                             style="width: 60%;"></div>
+                            
+                            <div class = "stylingSkills" id="dataSciencePracticalLater"
+                            style="width: 0rem;height: 0rem;"></div>
+                     
+                        </div>
+
+
+            
+                 
+                     
+                    </div>  
+                    </div>
+                 
+                    <!--------------------------------->
+                    <!-----------------Secnd Card-->  
+                    <div data-aos="fade-up" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
+                    <div class="headingCard" 
+                    onmouseover="mouseOver('talendTheoryInitial','talendTheoryLater','30%','talendPracticalInitial','talendPracticalLater','40%')" 
+                    onmouseout="mouseOut('talendTheoryInitial','talendTheoryLater','talendPracticalInitial','talendPracticalLater')" >
+                        <!-------------------Heading Main----------------->
+                        <div class="skillHeading"> Talend</div>
+                       
+                      
+                        <div class="subHeading">Theory </div>
+                        <!------------------>
+                        <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                            
+                            <div class="stylingSkills" id="talendTheoryInitial" 
+                             style="width: 30%;"></div>
+                            
+                            <div class = "stylingSkills" id="talendTheoryLater"
+                            style="width: 0rem;height: 0rem;"></div>
+                     
+                        </div>
+                      <div class="subHeading">Practical </div>
+                        <!------------------>
+                        <!------------------>
+                        <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                            
+                            <div class="stylingSkills" id="talendPracticalInitial" 
+                             style="width: 40%;"></div>
+                            
+                            <div class = "stylingSkills" id="talendPracticalLater"
+                            style="width: 0rem;height: 0rem;"></div>
+                     
+                        </div>
+
+
+            
+                 
+                     
+                    </div> 
+                    </div>
+                    <!--------------------------------->
+                    <!-----------------Third Card-->  
+                    <div data-aos="fade-left" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
+                    <div class="headingCard" 
+                    onmouseover="mouseOver('awsTheoryInitial','awsTheoryLater','20%','awsPracticalInitial','awsPracticalLater','37%')" 
+                    onmouseout="mouseOut('awsTheoryInitial','awsTheoryLater','awsPracticalInitial','awsPracticalLater')" >
+                        <!-------------------Heading Main----------------->
+                        <div class="skillHeading"> AWS</div>
+                       
+                      
+                        <div class="subHeading">Theory </div>
+                        <!------------------>
+                        <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                            
+                            <div class="stylingSkills" id="awsTheoryInitial" 
+                             style="width: 20%;"></div>
+                            
+                            <div class = "stylingSkills" id="awsTheoryLater"
+                            style="width: 0rem;height: 0rem;"></div>
+                     
+                        </div>
+                      <div class="subHeading">Practical </div>
+                        <!------------------>
+                        <!------------------>
+                        <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+                            
+                            <div class="stylingSkills" id="awsPracticalInitial" 
+                             style="width: 37%;"></div>
+                            
+                            <div class = "stylingSkills" id="awsPracticalLater"
+                            style="width: 0rem;height: 0rem;"></div>
+                     
+                        </div>
+
+
+            
+                 
+                     
+                    </div> 
+                    <!--------------------------------->
+                </div>
+                </div>
+                    </div>
+         </div>
+
+        
+        <!-- The Words About Me Section's Heading giving by this tag-->
+             <div>
+              <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="aboutMe" >Words About Me</div>
+              <!---------------------------------------------------->
+              <!--Words About Me Section Added here               -->
+              <!---------------------------------------------------->
+              <div style="margin: 1rem;" > 
+           <div class="row" style="display: flex;justify-content: center;">
+               
+                 <!-- First Card of Words About Me Card-->
+                  <div  data-aos="fade-right" data-aos-duration="2000" class="flip-card" style="margin:1rem;">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                            <div class="card">
+                                 <img src="img/Rishabh-ConvertImage.jpg" class= "imageStyle">
+                                </div>
+                          </div>
+                        <div class="flip-card-back"  >
+                                <div class="card"> <p class="recommend" >Akash is a guy who will deliver what he promises. He is hardworking and goes out of his way to achieve the deliverables on time and of the highest quality. He is smart and truly an asset in any team.</p>
+                                    <a  href="https://www.linkedin.com/in/rishabh-agarwal-9096074621/" class = "linkClass"target="_blank">Rishabh Agarwal</a>
+                                </div>
+                                
+                        </div> 
+                    </div>
+                  </div>
+                  <!------------------------------------------->
+                 
+                  <!-- Third Card of Words About Me Tab -->
+                   <div data-aos="fade-left" data-aos-duration="2000" class="flip-card" style="margin:1rem;">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                            <div class="card" ><img src="img/Ishan-ConvertImage.jpg" class="imageStyle"></div>
+                      </div>
+                      <div class="flip-card-back">
+                            <div class="card"> <p class="recommend" >Surely a hardworking resource for any team with great data anaytics capabilities.</p>
+                                <a href="https://www.linkedin.com/in/ishaan-b-33609795/" class = "linkClass"target="_blank">Ishaan Bhatnagar </a>
+                            </div>
+                      </div> </div>
+                  </div>
+                  <!---------------------------------------->
+            </div>
+               </div>
+            </div>
+        <!---------------------------------------------------->
+          
+        <!---------------------------------------------------->
+        <!--Project Section Added here                      -->
+        <!----------------------------------------------------> 
+  
+            <!-- The Project Section's Heading giving by this tag-->
+            <div>
+              <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="projectMy" >Projects</div>
+            <!------------------------------------------------------->
+               <div style="margin: 1rem;">
+                  <!------------------Second Row of Project View Section Added Here -->
+                    <div class="row" style="display: flex;justify-content: center;">
+ 
+    
+
+                        <!------------------------------Fourth card details ------>
+                        <div  data-aos="fade-right" data-aos-duration="2000" style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                            <!------------------------------------------------------------------>
+                            <!--First Card-->
+                            <!------------------------------------------------------------------->
+                              <div  id="carouselExampleIndicators" class="carousel slide carousel-fade " data-ride="carousel" data-interval="5000">
+                            
+                                                                   <ol class="carousel-indicators">
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                                                     
+                                                                   </ol>
+                               
+                               
+                                  <!-------------------------------------------------------->
+                                  <div class="carousel-inner" >
+                                  <!-------------------------------------------------------->
+                                 
+                            
+                                            <!--------------------First Card---------------------------------->
+                                            <div class="carousel-item active" onmouseover="titleVisible('title12')" onmouseout="titleHidden('title12')">
+                                                                          <div class="cards_container" style="margin:1rem;"  >
+                                                                          <h1 class="title" id = "title12" >Calculator</h1>
+                                                                            <h1 class="heading_project">Calculator</h1>
+                                                                            <div class="overlay"  > </div>
+                                                                             <div class="button"  >
+                                                                                 <a href="https://github.com/akashf/calcyAkash" target="_blank"> View Project </a></div>
+                                                                        </div>
+                                                                     </div>
+                                             <!------------------------------------------------------------>  
+                                      
+                                      
+                                            <!--------------------Second Card---------------------------------->
+                                            <div class="carousel-item ">
+                                                                    <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title14')" onmouseout="titleHidden('title14')">
+                                                                        <h1 class="title" id = "title14" >Calculator</h1>
+                                                                        <h6>Description</h6>
+                                                                        <div class="overlay"> </div>
+                                                                         <p class="paragraph_style">Android calculator app which is able to do mathematical 
+                                                                           operation as well as able to perform logic gates
+                                                                            computation like (AND, OR and NOT, etc).</p>
+                                                                         <div class="button"  ><a href="https://github.com/akashf/calcyAkash" target="_blank"> View Project </a></div>
+                                                                    </div>
+                                                                </div>
+                                            <!------------------------------------------------------------> 
+                            
+                            
+                                             <!--------------------Third Card---------------------------------->
+                                            <div class="carousel-item ">
+                                                                 <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title15')" onmouseout="titleHidden('title15')">
+                                                                     <h1 class="title" id = "title15" >Calculator</h1>
+                                                                     <h6>Role</h6>
+                                                                     <div class="overlay"> </div>
+                                                                      <p class="paragraph_style">Being a developer, I designed the User Interface of this app.
+                                                                         Along with that developed the logic and coding of how operations will perform in the app. </p>
+                                                                      <div class="button"  >
+                                                                          <a href="https://github.com/akashf/calcyAkash" target="_blank"> View Project </a></div>
+                                                                 </div>
+                                                             </div>
+                                             <!------------------------------------------------------------> 
+                                             
+                                             <!---------------------Fourth Card-----------------------------> 
+                                             <div class="carousel-item ">
+                                                              <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title16')" onmouseout="titleHidden('title16')">
+                                                                  <h1 class="title" id = "title16" >Calculator</h1>
+                                                                  <h6>Skills and Tools</h6>
+                                                                  <div class="overlay"> </div>
+                                                                   <p class="paragraph_style">Java | Problem Solving | GitHub | Android Studio</p>
+                                                                   <div class="button"  >
+                                                                       <a href="https://github.com/akashf/calcyAkash" target="_blank"> View Project </a></div>
+                                                              </div>
+                                                         </div>
+                                   </div>
+                               <!------------------------------------------------------->
+                               </div>
+                            </div>
+                            <!---------------------------------------------------------------->
+                              
+                            
+                        <!-----Fifth Card details Added here--------------------------->
+                        
+                        <div  data-aos="fade-up" data-aos-duration="2000" style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                            <!------------------------------------------------------------------>
+                            <!--First Card-->
+                            <!------------------------------------------------------------------->
+                              <div  id="carousel-1" class="carousel slide carousel-fade " data-ride="carousel" data-interval="5000">
+                            
+                                                                   <ol class="carousel-indicators">
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                                                     
+                                                                   </ol>
+                               
+                               
+                                  <!-------------------------------------------------------->
+                                  <div class="carousel-inner" >
+                                  <!-------------------------------------------------------->
+                                 
+                            
+                                            <!--------------------First Card---------------------------------->
+                                            <div class="carousel-item active" onmouseover="titleVisible('title17')" onmouseout="titleHidden('title17')">
+                                                                          <div class="cards_container" style="margin:1rem;"  >
+                                                                          <h1 class="title" id = "title17" >Covid-19 Patient Prediction</h1>
+                                                                            <h1 class="heading_project">Covid-19 Patient Prediction </h1>
+                                                                            <div class="overlay"  > </div>
+                                                                             <div class="button"  >
+                                                                                 <a href="https://github.com/akashf/DataScience" target="_blank"> View Project </a></div>
+                                                                        </div>
+                                                                     </div>
+                                             <!------------------------------------------------------------>  
+                                      
+                                      
+                                            <!--------------------Second Card---------------------------------->
+                                            <div class="carousel-item " onmouseover="titleVisible('title18')" onmouseout="titleHidden('title18')">
+                                                                    <div class="cards_container" style="margin:1rem;" >
+                                                                        <h1 class="title" id = "title18" >Covid-19 Patient Prediction </h1>
+                                                                        <h6>Description</h6>
+                                                                        <div class="overlay"> </div>
+                                                                         <p class="paragraph_style">The covid-19 patient predictor will predict how many patients will 
+                                                                           increase every week in India as well as it also tells how much more beds states need for the patient.</p>
+                                                                         <div class="button"  >
+                                                                             <a href="https://github.com/akashf/DataScience" target="_blank"> View Project </a></div>
+                                                                    </div>
+                                                                </div>
+                                            <!------------------------------------------------------------> 
+                            
+                            
+                                             <!--------------------Third Card---------------------------------->
+                                            <div class="carousel-item "  onmouseover="titleVisible('title19')" onmouseout="titleHidden('title19')">
+                                                                 <div class="cards_container" style="margin:1rem;">
+                                                                     <h1 class="title" id = "title19" >Covid-19 Patient Prediction</h1>
+                                                                     <h6>Role</h6>
+                                                                     <div class="overlay"> </div>
+                                                                      <p class="paragraph_style">Covid -19 predictor is my Advance Data Science Capstone project.
+                                                                          I collected data from online resources like kaggle.com and created jupyter notebook applied ml algorithms to data and get insight.</p>
+                                                                      <div class="button"  >
+                                                                          <a href="https://github.com/akashf/DataScience" target="_blank"> View Project </a></div>
+                                                                 </div>
+                                                             </div>
+                                             <!------------------------------------------------------------> 
+                                             
+                                             <!---------------------Fourth Card-----------------------------> 
+                                             <div class="carousel-item " onmouseover="titleVisible('title20')" onmouseout="titleHidden('title20')">
+                                                              <div class="cards_container" style="margin:1rem;" >
+                                                                  <h1 class="title" id = "title20" >Covid-19 Patient Prediction</h1>
+                                                                  <h6>Skills and Tools</h6>
+                                                                  <div class="overlay"> </div>
+                                                                   <p class="paragraph_style">Python | Matplotlib | GitHub | Ml | Problem Solving | </p>
+                                                                   <div class="button"  >
+                                                                       <a href="https://github.com/akashf/DataScience" target="_blank"> View Project </a></div>
+                                                              </div>
+                                                         </div>
+                                   </div>
+                               <!------------------------------------------------------->
+                               </div>
+                            </div>
+                            <!---------------------------------------------------------------->
+                        <!---------------------------------------------------------------->
+                        
+                       
+                         <!------------------------------------------------------------------>
+                        <!-- Six Card---------------------------------------------- -->
+                        <!----------------------------------------------------------------->
+                        <div  data-aos="fade-left" data-aos-duration="2000" style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                            <!------------------------------------------------------------------>
+                            <!--Third Card-->
+                            <!------------------------------------------------------------------->
+                              <div  id="carouselExampleIndicators1" class="carousel slide carousel-fade " data-ride="carousel" data-interval="5000">
+                            
+                                                                   <ol class="carousel-indicators">
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                                                     
+                                                                   </ol>
+                               
+                               
+                                  <!-------------------------------------------------------->
+                                  <div class="carousel-inner" >
+                                  <!-------------------------------------------------------->
+                                 
+                            
+                                            <!--------------------First Card---------------------------------->
+                                            <div class="carousel-item active" onmouseover="titleVisible('title21')" onmouseout="titleHidden('title21')">
+                                                                          <div class="cards_container" style="margin:1rem;"  >
+                                                                          <h1 class="title" id = "title21" >Portfolio Modified</h1>
+                                                                            <h1 class="heading_project">Portfolio Modified</h1>
+                                                                            <div class="overlay"  > </div>
+                                                                             <div class="button"  ><a href="#"> View Project </a></div>
+                                                                        </div>
+                                                                     </div>
+                                             <!------------------------------------------------------------>  
+                                      
+                                      
+                                            <!--------------------Second Card---------------------------------->
+                                            <div class="carousel-item ">
+                                                                    <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title22')" onmouseout="titleHidden('title22')">
+                                                                        <h1 class="title" id = "title22" >Portfolio Modified</h1>
+                                                                        <h6>Description</h6>
+                                                                        <div class="overlay"> </div>
+                                                                         <p class="paragraph_style">Modified Portfolio is an upgraded version of my portfolio project.
+                                                                          It is visually interactive and optimized. It is also responsive to mobile devices, tablets, laptops.</p>
+                                                                         <div class="button"  ><a href="#"> View Project </a></div>
+                                                                    </div>
+                                                                </div>
+                                            <!------------------------------------------------------------> 
+                            
+                            
+                                             <!--------------------Third Card---------------------------------->
+                                            <div class="carousel-item ">
+                                                                 <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title23')" onmouseout="titleHidden('title23')">
+                                                                     <h1 class="title" id = "title23" >Portfolio Modified</h1>
+                                                                     <h6>Role</h6>
+                                                                     <div class="overlay"> </div>
+                                                                      <p class="paragraph_style">Handcrafted this website design-wise as well as logic wise. 
+                                                                        Being a developer, I designed User Interface and all the functionality of this website.</p>
+                                                                      <div class="button"  ><a href="#"> View Project </a></div>
+                                                                 </div>
+                                                             </div>
+                                             <!------------------------------------------------------------> 
+                                             
+                                             <!---------------------Fourth Card-----------------------------> 
+                                             <div class="carousel-item ">
+                                                              <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title24')" onmouseout="titleHidden('title24')">
+                                                                  <h1 class="title" id = "title24" >Portfolio Modified</h1>
+                                                                  <h6>Skills and Tools</h6>
+                                                                  <div class="overlay"> </div>
+                                                                   <p class="paragraph_style">Html | Css | Java Script | Bootstrap | GitHub | Problem Solving| </p>
+                                                                   <div class="button"  ><a href="#"> View Project </a></div>
+                                                              </div>
+                                                         </div>
+                                   </div>
+                               <!------------------------------------------------------->
+                               </div>
+                            </div>
+                        <!----------------------------------------------->     
+                        
+                        
+                        </div>         
+                <!---------Second  Row of Project View Section Ended Here----------------->  
+
+                <!------------------First Row of Project View Section Added Here -->
+                    <div class="row" style="display: flex;justify-content: center;">
+                     
+                    <!------------------------------Bounding first pragraph-->
+                        <div  data-aos="fade-right" data-aos-duration="2000"  style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                        <!------------------------------------------------------------------>
+                        <!--First Card-->
+                        <!------------------------------------------------------------------->
+                          <div  id="carouselExampleIndicators" class="carousel slide carousel-fade " data-ride="carousel" data-interval="5000">
+                        
+                                                               <ol class="carousel-indicators">
+                                                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                                                 
+                                                               </ol>
+                           
+                           
+                              <!-------------------------------------------------------->
+                              <div class="carousel-inner" >
+                              <!-------------------------------------------------------->
+                             
+                        
+                                        <!--------------------First Card---------------------------------->
+                                        <div class="carousel-item active" onmouseover="titleVisible('title')" onmouseout="titleHidden('title')">
+                                                                      <div class="cards_container" style="margin:1rem;"  >
+                                                                      <h1 class="title" id = "title" >Tic Tac Toe</h1>
+                                                                        <h1 class="heading_project">Tic Tac Toe</h1>
+                                                                        <div class="overlay"  > </div>
+                                                                         <div class="button"  ><a href="https://github.com/akashf/tictactoe" target="_blank"> View Project </a></div>
+                                                                    </div>
+                                                                 </div>
+                                         <!------------------------------------------------------------>  
+                                  
+                                  
+                                        <!--------------------Second Card---------------------------------->
+                                        <div class="carousel-item ">
+                                                                <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title1')" onmouseout="titleHidden('title1')">
+                                                                    <h1 class="title" id = "title1" >Tic Tac Toe</h1>
+                                                                    <h6>Description</h6>
+                                                                    <div class="overlay"> </div>
+                                                                     <p class="paragraph_style">One of the Porjects I had during my collage first year.
+                                                                       Used c++ language for creating the game.
+                                                                       This is a simple console tic toc toe game.</p>
+                                                                     <div class="button"  >
+                                                                         <a href="https://github.com/akashf/tictactoe" target="_blank"> View Project </a></div>
+                                                                </div>
+                                                            </div>
+                                        <!------------------------------------------------------------> 
+                        
+                        
+                                         <!--------------------Third Card---------------------------------->
+                                        <div class="carousel-item ">
+                                                             <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title2')" onmouseout="titleHidden('title2')">
+                                                                 <h1 class="title" id = "title2" >Tic Tac Toe</h1>
+                                                                 <h6>Role</h6>
+                                                                 <div class="overlay"> </div>
+                                                                  <p class="paragraph_style">This was my individual project, I developed this projcet
+                                                                      along with that I developed logic and desing part of the game.</p>
+                                                                  <div class="button"  >
+                                                                      <a href="https://github.com/akashf/tictactoe" target="_blank"> View Project </a></div>
+                                                             </div>
+                                                         </div>
+                                         <!------------------------------------------------------------> 
+                                         
+                                         <!---------------------Fourth Card-----------------------------> 
+                                         <div class="carousel-item ">
+                                                          <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title3')" onmouseout="titleHidden('title3')">
+                                                              <h1 class="title" id = "title3" >Tic Tac Toe</h1>
+                                                              <h6>Skills and Tools</h6>
+                                                              <div class="overlay"> </div>
+                                                               <p class="paragraph_style">C++ | Problem Solving | GitHub | Visual Studio</p>
+                                                               <div class="button"  ><a href="https://github.com/akashf/tictactoe" target="_blank"> View Project </a></div>
+                                                          </div>
+                                                     </div>
+                               </div>
+                           <!------------------------------------------------------->
+                           </div>
+                        </div>
+                        <!---------------------------------------------------------------->
+                          
+                        
+                        <!-----Second Card details Added here--------------------------->
+                        <div  data-aos="fade-up" data-aos-duration="2000"  style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                            <!------------------------------------------------------------------>
+                            <!--First Card-->
+                            <!------------------------------------------------------------------->
+                              <div  id="carousel-1" class="carousel slide carousel-fade " data-ride="carousel" data-interval="5000">
+                            
+                                                                   <ol class="carousel-indicators">
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                                                     
+                                                                   </ol>
+                               
+                               
+                                  <!-------------------------------------------------------->
+                                  <div class="carousel-inner" >
+                                  <!-------------------------------------------------------->
+                                 
+                            
+                                            <!--------------------First Card---------------------------------->
+                                            <div class="carousel-item active" onmouseover="titleVisible('title4')" onmouseout="titleHidden('title4')">
+                                                                          <div class="cards_container" style="margin:1rem;"  >
+                                                                          <h1 class="title" id = "title4" >HealthCare Management System</h1>
+                                                                            <h1 class="heading_project">HealthCare Management System</h1>
+                                                                            <div class="overlay"  > </div>
+                                                                             <div class="button"  >
+                                                                                 <a href="https://github.com/akashf/HealthCare-Mgmt-java" target="_blank"> View Project </a></div>
+                                                                        </div>
+                                                                     </div>
+                                             <!------------------------------------------------------------>  
+                                      
+                                            <!--------------------Second Card---------------------------------->
+                                            <div class="carousel-item ">
+                                                                    <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title5')" onmouseout="titleHidden('title5')">
+                                                                        <h1 class="title" id = "title5" >HealthCare Management System</h1>
+                                                                        <h6>Description</h6>
+                                                                        <div class="overlay"> </div>
+                                                                         <p class="paragraph_style">To help doctors and medical store owners who are working together.
+                                                                            This application will help them to manage their transaction details, patient history, and medicine stock. 
+                                                                           It will help doctors to track patient history and appointment booking.</p>
+                                                                         <div class="button"  >
+                                                                             <a href="https://github.com/akashf/HealthCare-Mgmt-java" target="_blank"> View Project </a></div>
+                                                                    </div>
+                                                                </div>
+                                            <!------------------------------------------------------------> 
+                            
+                                             <!--------------------Third Card---------------------------------->
+                                            <div class="carousel-item ">
+                                                                 <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title6')" onmouseout="titleHidden('title6')">
+                                                                     <h1 class="title" id = "title6" >HealthCare Management System</h1>
+                                                                     <h6>Role</h6>
+                                                                     <div class="overlay"> </div>
+                                                                      <p class="paragraph_style">Being the team leader, 
+                                                                        I was involved in application building and testing the application
+                                                                         along with that helped in the logic building to complete the tasks.</p>
+                                                                      <div class="button"  >
+                                                                          <a href="https://github.com/akashf/HealthCare-Mgmt-java" target="_blank"> View Project </a></div>
+                                                                 </div>
+                                                             </div>
+                                             <!------------------------------------------------------------> 
+                                             
+                                             <!---------------------Fourth Card-----------------------------> 
+                                             <div class="carousel-item ">
+                                                              <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title7')" onmouseout="titleHidden('title7')">
+                                                                  <h1 class="title" id = "title7" >HealthCare Management System</h1>
+                                                                  <h6>Skills and Tools</h6>
+                                                                  <div class="overlay"> </div>
+                                                                   <p class="paragraph_style">Java | Sql | Problem Solving | GitHub | Leadership | Teamwork | NetBeans | Xampp</p>
+                                                                   <div class="button"  >
+                                                                       <a href="https://github.com/akashf/HealthCare-Mgmt-java" target="_blank"> View Project </a></div>
+                                                              </div>
+                                                         </div>
+                                   </div>
+                               <!------------------------------------------------------->
+                               </div>
+                            </div>
+                            <!---------------------------------------------------------------->
+                        <!---------------------------------------------------------------->
+                        
+                       
+                         <!------------------------------------------------------------------>
+                        <!-- Third Card---------------------------------------------- -->
+                        <!----------------------------------------------------------------->
+                        <div  data-aos="fade-left" data-aos-duration="2000" style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                            <!------------------------------------------------------------------>
+                            <!--Third Card-->
+                            <!------------------------------------------------------------------->
+                              <div  id="carouselExampleIndicators1" class="carousel slide carousel-fade " data-ride="carousel" data-interval="5000">
+                            
+                                                                   <ol class="carousel-indicators">
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                                                     
+                                                                   </ol>
+                               
+                               
+                                  <!-------------------------------------------------------->
+                                  <div class="carousel-inner" >
+                                  <!-------------------------------------------------------->
+                                 
+                            
+                                            <!--------------------First Card---------------------------------->
+                                            <div class="carousel-item active" onmouseover="titleVisible('title8')" onmouseout="titleHidden('title8')">
+                                                                          <div class="cards_container" style="margin:1rem;"  >
+                                                                          <h1 class="title" id = "title8" >Portfolio</h1>
+                                                                            <h1 class="heading_project">Portfolio</h1>
+                                                                            <div class="overlay"  > </div>
+                                                                             <div class="button"  >
+                                                                                 <a href="https://akashf.github.io" target="_blank"> View Project </a></div>
+                                                                        </div>
+                                                                     </div>
+                                             <!------------------------------------------------------------>  
+                                      
+                                      
+                                            <!--------------------Second Card---------------------------------->
+                                            <div class="carousel-item ">
+                                                                    <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title9')" onmouseout="titleHidden('title9')">
+                                                                        <h1 class="title" id = "title9" >Portfolio</h1>
+                                                                        <h6>Description</h6>
+                                                                        <div class="overlay"> </div>
+                                                                         <p class="paragraph_style">A portfolio is a central place where I collected my information, my certificates, skills and all the things which I can show through the web.
+                                                                            And it is hands-on of my web development skills.</p>
+                                                                         <div class="button"  >
+                                                                             <a href="https://akashf.github.io" target="_blank"> View Project </a></div>
+                                                                    </div>
+                                                                </div>
+                                            <!------------------------------------------------------------> 
+                            
+                            
+                                             <!--------------------Third Card---------------------------------->
+                                            <div class="carousel-item ">
+                                                                 <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title10')" onmouseout="titleHidden('title10')">
+                                                                     <h1 class="title" id = "title10" >Portfolio</h1>
+                                                                     <h6>Role</h6>
+                                                                     <div class="overlay"> </div>
+                                                                      <p class="paragraph_style">Designed this website, as well as build logics and 
+                                                                        animations along with that deployed online so anyone can view it.</p>
+                                                                      <div class="button"  >
+                                                                          <a href="https://akashf.github.io" target="_blank"> View Project </a></div>
+                                                                 </div>
+                                                             </div>
+                                             <!------------------------------------------------------------> 
+                                             
+                                             <!---------------------Fourth Card-----------------------------> 
+                                             <div class="carousel-item ">
+                                                              <div class="cards_container" style="margin:1rem;" onmouseover="titleVisible('title11')" onmouseout="titleHidden('title11')">
+                                                                  <h1 class="title" id = "title11" >Portfolio</h1>
+                                                                  <h6>Skills and Tools</h6>
+                                                                  <div class="overlay"> </div>
+                                                                   <p class="paragraph_style">Html | Css | Java Script | Bootstrap | GitHub | Problem Solving </p>
+                                                                   <div class="button"  ><a href="https://akashf.github.io" target="_blank"> View Project </a></div>
+                                                              </div>
+                                                         </div>
+                                   </div>
+                               <!------------------------------------------------------->
+                               </div>
+                            </div>
+                        <!----------------------------------------------->     
+                        </div>
+                <!----------First Row of Project View Section Ended Here----------------->
+            
+            </div>
+          </div>
+     
+
+     
+         <!--------------------------------------------------->
+        
+     
+        <!---------------------------------------------------->
+        <!-- Certifications Section Added here                -->
+        <!----------------------------------------------------> 
+         <div >
+            <!-- The Certifications Section's Heading giving by this tag-->
+            <div data-aos="fade-up" data-aos-duration="1000"  class="skill-set" id="myCertificates" >Certifications</div>
+            <!------------------------------------------------------->
+            <!--First Row of Certification--> 
+            <div style="margin: 1rem;" > 
+                <div class="row" style="display: flex;justify-content: center;">
+                    
+                    <!-----------------First Card-->  
+                    <div  data-aos="fade-right" data-aos-duration="2000"  class="cardCertification" style="margin: 1rem;">
+                    <div class="card " >
+                        <!------------------>
+                        <div style="height:20%">
+                            <img class="course_logo"src="logo/ibm_logo.png">
+                         </div>
+                        <!---Pwered By logo -->   
+                          <div class="row" style="height:15% ; padding: 0.5rem;">
+                                <div class="col-5"><p class="text_class" >Powered By</p></div>
+                                <div class="col-5"><img class=" coursera_logo"src="logo/coursera.png"></div>
+                             </div> 
+                        <!------------------>
+                         <div style="height: 50%;" class="certificate_heading">
+                        <a  style="height: 100%; display: inline-block;" href="https://www.coursera.org/account/accomplishments/specialization/ATSW2NKME8DM" target="_blank">   
+                            Advanced Data Science with IBM
+                        </a>
+                       </div>
+                        <div class="footer_card" >SPECIALIZATION</div>
+                    </div>  
+                </div>
+                    <!--------------------------------->
+                
+                 <!-----------------Second Card-->  
+                 <div  data-aos="fade-up" data-aos-duration="2000" class="cardCertification" style="margin: 1rem;">
+                 <div class="card" >
+                        <!------------------>
+                        <div style="height:20%">
+                            <img class="course_logo"src="logo/ibm_logo.png">
+                         </div>
+                        <!---Pwered By logo -->   
+                          <div class="row" style="height:15% ; padding: 0.5rem;">
+                                <div class="col-5"><p class="text_class" >Powered By</p></div>
+                                <div class="col-5"><img class=" coursera_logo"src="logo/coursera.png"></div>
+                             </div> 
+                        <!------------------>
+                         <div style="height: 50%;" class="certificate_heading">
+                        <a  style="height: 100%; display: inline-block;" href="https://www.coursera.org/account/accomplishments/specialization/MVMY573CNM2Q" target="_blank">   
+                            Applied Data Science
+                        </a>
+                       </div>
+                        <div class="footer_card" >SPECIALIZATION</div>
+                    </div>  
+                </div>
+                    <!--------------------------------->    
+             
+                  <!-----------------Third Card-->  
+                  <div  data-aos="fade-left" data-aos-duration="2000"  class="cardCertification" style="margin: 1rem;">
+                  <div class="card" >
+                        <!------------------>
+                        <div style="height:20%">
+                            <img class="course_logo"src="logo/ibm_logo.png">
+                         </div>
+                        <!---Pwered By logo -->   
+                          <div class="row" style="height:15% ; padding: 0.5rem;">
+                                <div class="col-5"><p class="text_class" >Powered By</p></div>
+                                <div class="col-5"><img class=" coursera_logo"src="logo/coursera.png"></div>
+                             </div> 
+                        <!------------------>
+                         <div style="height: 50%;" class="certificate_heading">
+                        <a  style="height: 100%; display: inline-block;" 
+                        href="https://www.coursera.org/account/accomplishments/professional-cert/M5BSHFDQJV2B" target="_blank">   
+                            IBM Data Science
+                        </a>
+                       </div>
+                        <div class="footer_card" >PROFESSIONAL CERTIFICATE</div>
+                    </div>  
+                    </div>
+                    <!--------------------------------->                          
+
+                </div>
+             </div>
+
+            <!---Second Row of Certification-->
+            <div style="margin: 1rem;" > 
+                <div class="row" style="display: flex;justify-content: center;">
+                   
+                   
+                    <!-----------------First Card-->  
+                    <div  data-aos="fade-right" data-aos-duration="2000" class="cardCertification" style="margin: 1rem; margin-top: 0rem;">
+                    <div class="card"   >
+                        <!------------------>
+                        <div style="height:20%">
+                            <img class="course_logo"src="logo/ibm_logo.png">
+                         </div>
+                        <!---Pwered By logo -->   
+                          <div class="row" style="height:15% ; padding: 0.5rem;">
+                                <div class="col-5"><p class="text_class" >Powered By</p></div>
+                                <div class="col-5"><img class=" coursera_logo"src="logo/coursera.png"></div>
+                             </div> 
+                        <!------------------>
+                         <div style="height: 50%;" class="certificate_heading">
+                        <a  style="height: 100%; display: inline-block;" href="https://www.coursera.org/account/accomplishments/specialization/ATSW2NKME8DM" target="_blank">   
+                            IBM AI Engineering
+                        </a>
+                       </div>
+                        <div class="footer_card" >PROFESSIONAL CERTIFICATE</div>
+                    </div> 
+                    </div>
+                    <!--------------------------------->
+                
+                 <!-----------------Second Card-->  
+                 <div  data-aos="fade-up" data-aos-duration="2000"  class="cardCertification" style="margin: 1rem; margin-top: 0rem;">
+                 <div class="card" >
+                        <!------------------>
+                        <div style="height:20%">
+                            <img class="course_logo"src="logo/ibm_logo.png">
+                         </div>
+                        <!---Pwered By logo -->   
+                          <div class="row" style="height:15% ; padding: 0.5rem;">
+                                <div class="col-5"><p class="text_class" >Powered By</p></div>
+                                <div class="col-5"><img class=" coursera_logo"src="logo/coursera.png"></div>
+                             </div> 
+                        <!------------------>
+                         <div style="height: 50%;" class="certificate_heading">
+                        <a  style="height: 100%; display: inline-block;" 
+                        href="https://www.coursera.org/account/accomplishments/specialization/Q9MUX4NADTMV" target="_blank">   
+                            Introduction to Data Science
+                        </a>
+                       </div>
+                        <div class="footer_card" >SPECIALIZATION</div>
+                    </div>  
+                    </div>
+                    <!--------------------------------->    
+             
+                  <!-----------------Third Card-->  
+                  <div  data-aos="fade-left" data-aos-duration="2000" class="cardCertification" style="margin: 1rem; margin-top: 0rem;">
+                  <div class="card" >
+                        <!------------------>
+                        <div style="height:50%">
+                            <img class="course_logo" style="width: 50% ;height: 50%;"src="logo/kindpng_2071598.png">
+                         </div>
+                       
+                         <div style="height: 50%;" class="certificate_heading">
+                        <a  style="height: 100%; display: inline-block;" 
+                        href="https://drive.google.com/file/d/1lV93jN6MaUwW7A9OOEBvsXv6UfzxX8SR/view?usp=sharing" target="_blank">   
+                        Red Hat Certified System Administrator
+                        </a>
+                       </div>
+                        <div class="footer_card" >CERTIFICATION</div>
+                    </div>  
+                    </div>
+                    <!--------------------------------->                          
+               
+                </div>
+               </div>
+          </div>
+        <!---------------------------------------------------->
+          
+        <!---------------------------------------------------->
+        <!-- Contacts Section Added here                    -->
+        <!----------------------------------------------------> 
+         <div >
+            <!-- The Contact Section's Heading giving by this tag-->
+            <div data-aos="fade-up"  data-aos-duration="1000" class="skill-set" id="myContacts" >Contact Me</div>
+            <!------------------------------------------------------->
+            <div style="margin: 1rem;" > 
+                <div class="row" style="display: flex;justify-content: center;">
+               
+               <!-------Firstcard------->
+                <div  data-aos="fade-right" data-aos-duration="2000" class="card contactDifferent" >
+                   
+                    <!--Gmail added here -->
+                    <div class = "row" id="first_block" style = "justify-content: center; margin: 2rem;" onclick="mailRoute()">
+                      <div></div><img  class = "course_logo" src="logo/gmail.png" ></img>
+                      <div id="gmail"><a href="mailto:akashpandey2098@gmail.com" id = "gmail_name">
+                          <p style="color: #eeeeee;">akashpandey2098@gmail.com</p></a>
+                      </div>
+                    </div>
+                      <!--------------------->
+                    
+                      <!-- Hackerearth-->
+                    <div class="row" id="second_block" onclick="hacker()">
+                            <img  id="hacker_text" src="logo/hackerearth.svg" ></img>
+                    </div>
+                    
+                </div>
+                <!------------------------>
+     
+                <!-- Linked in Badge-->
+                <div  data-aos="fade-up" data-aos-duration="2000"  class="card contactDifferent">
+                 <div class="LI-profile-badge row"  data-version="v1" data-size="small" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="akas08">
+                   <a class="LI-simple-link" id="linkedIn" href='https://in.linkedin.com/in/akas08?trk=profile-badge'>
+                    Akash Pandey</a></div>
+
+                </div>   
+                 <!------------------------> 
+                
+                 <div  data-aos="fade-left" data-aos-duration="2000"  class="card contactDifferent" >
+                 
+                    <!-------Github------->
+                    <div class = "row" id="github" onclick="gitRoute()">
+                        <img id="github_text" src="logo/GitHub_Logo_White.png"></img>
+                    </div>
+                    <!--------------------->
+
+                    <!----Sourceer-->
+                    <div class="row" id = "sourcerer"  onclick="sourceRoute()">
+                        <img id="sourcerer_text" src="https://sourcerer.io/icons/logo-sharing.svg" alt="Sourcerer">
+                    </div>
+                </div>    
+             
+             </div>
+
+             </div>
+           </div>
+        <!---------------------------------------------------->
+         <!---------------------------------------------------->
+        <!-- FeedBack Section Added here                    -->
+        <!----------------------------------------------------> 
+        <div  style="margin-top: 5rem; ">
+            <!-- The Contact Section's Heading giving by this tag-->
+            <div data-aos="fade-up"  data-aos-duration="1000" class="skill-set" id="myContacts" >Feedback</div>
+            <!------------------------------------------------------->
+            <div  data-aos="zoom-in" data-aos-duration="2000" style="display:flex; justify-content: center; height:667; overflow:hidden;">
+                <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdtHVDn2Z0plpbT-4Vrc7nimRfzM119rIosP8CtKp-B46Wrkg/viewform?embedded=true"
+                 width="640" height="660" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" >
+                    Loading…</iframe>
+                </div>
+        </div>   
+
+
+        
+        <footer>
+        <p style="margin-inline-start: 3rem; margin-top: 1rem;">Made By <a onclick="gitRoute()" style="cursor: pointer; color: #55ff06;">Akash</a></p>
+    </footer>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+   <!-- scripts required in this program i placed here -->
+   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/slide_bar.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript"  src="js/graph.js"></script>
+    <script type="text/javascript"  src="js/skills_hove.js"></script>
+    <script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script  type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <!--finished-->
+
+
+</body>
+</html>
