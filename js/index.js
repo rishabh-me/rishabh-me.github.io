@@ -135,7 +135,7 @@ function contactRoute() {
   elmnt.scrollIntoView();
 }  
 function resumeRoute() {
-    window.open('', '_blank');
+    window.open('https://drive.google.com/file/d/1yipgsBozyWuhGzYHG3dOeHIfoEf6fy_5/view?usp=sharing', '_blank');
     
   }  
 
