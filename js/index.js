@@ -97,13 +97,13 @@ var TxtType = function(el, toRotate, period) {
         }, delta);
     };
     function mailRoute(){
-        window.open("mailto:akashpandey2098@gmail.com");
+        window.open("mailto:rishabh5530@gmail.com");
     };
     function hacker(){
         window.open("https://www.hackerearth.com/@akashpandey123");
     };
     function gitRoute(){
-        window.open("https://github.com/akash-me");
+        window.open("https://github.com/rishabh-me");
     };
     function sourceRoute(){
         window.open("https://sourcerer.io/akashf");
@@ -135,7 +135,7 @@ function contactRoute() {
   elmnt.scrollIntoView();
 }  
 function resumeRoute() {
-    window.open('https://drive.google.com/file/d/1DDyK6gkRZreXvlvh33CkDqlR_k042Kzv/view?usp=sharing', '_blank');
+    window.open('', '_blank');
     
   }  
 
